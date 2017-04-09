@@ -1,0 +1,71 @@
+body, p {
+	padding: 0;
+	margin: 0;
+}
+
+.main-container {
+	width: 1000px;
+	margin: 0px auto;
+	border: 1px solid #000;
+	padding: 10px;
+}
+
+.image-panel, .img-upload {
+	position: relative;
+	width: 800px;
+	margin: 10px auto;
+	text-align: center;
+}
+
+.image-panel {
+	display: none;
+}
+
+.tag-list {
+	display: block;
+}
+
+.label-panel {
+	position: absolute;
+	width: 100px;
+	border: 1px solid #000;
+	background-color: #000;
+	color: white;
+	display: none;
+}
+
+.region {
+	position: absolute;
+	z-index: +100;
+	text-align: center;
+	font-weight: bold;
+}
+
+.row {
+	width: 90px;
+	text-align: center;
+	padding: 2px;
+}
+
+.row input[type="text"] {
+	width: 100%;
+}
+
+.action-panel {
+	width: 150px;
+	padding: 5px;
+	text-align: center;
+	margin: 10px auto;
+	color: white;
+	background-color: #444;
+	display: none;
+}
+
+.action-panel:hover {
+	cursor: pointer;
+}
+
+.label-title {
+	background-color: rgba(0, 0, 0, 0.6);
+	color: white;
+}

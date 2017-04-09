@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Project</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="main-container">
+		<div class="img-upload">
+			<h3>Select an image to load</h3>
+			<input type="file" name="canvasimg" id="canvasimg" onchange="loadData(this)" style="width:90px">
+		</div>
+		<div class="image-panel">
+			<img src="" alt="" id="main-img" width="100%">
+			<div class="label-panel">
+				<div class="row">
+					<input type="text" name="label" id="label" placeholder="Add Label">
+				</div>
+				<div class="row">
+					<input type="button" name="save" value="Save" id="saveList">
+				</div>
+			</div>
+			<div class="tag-list"></div>
+		</div>
+		<div class="action-panel">
+			<div class="btn">Show Regions</div>
+		</div>
+	</div>
+
+<script type="text/javascript" src="js/jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+</body>
+</html>
